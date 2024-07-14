@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HelloWorld3Component } from './hello-world-3.component';
+import { DateComponent } from './date.component';
 
-describe('HelloWorld3Component', () => {
-  let component: HelloWorld3Component;
-  let fixture: ComponentFixture<HelloWorld3Component>;
+describe('DateComponent', () => {
+  let component: DateComponent;
+  let fixture: ComponentFixture<DateComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [HelloWorld3Component]
+      imports: [DateComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(HelloWorld3Component);
+    fixture = TestBed.createComponent(DateComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
